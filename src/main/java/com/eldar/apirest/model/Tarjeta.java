@@ -9,9 +9,12 @@ import java.sql.Date;
 @Entity
 @Table(name ="TARJETA")
 public class Tarjeta {
+    @Id
+    @Column(name = "IDTARJETA")
+    private Integer idtarjeta;
     @Column(name="MARCA")
     private String marca;
-    @Id
+
     @Column(name = "NUMERO")
     private String numero;
     @Column(name = "CARDHOLDER")
@@ -26,16 +29,25 @@ public class Tarjeta {
     public Tarjeta() {
     }
 
-    public Tarjeta(String marca, String numero, String cardholder, String fechavencimiento) {
+    public Tarjeta(Integer idtarjeta, String marca, String numero, String cardholder, String fechavencimiento) {
+        this.idtarjeta = idtarjeta;
         this.marca = marca;
         this.numero = numero;
         this.cardholder = cardholder;
         this.fechavencimiento = fechavencimiento;
     }
-
-    //*************************
+//*************************
     //*** Getters & Setters ***
     //*************************
+
+
+    public Integer getIdtarjeta() {
+        return idtarjeta;
+    }
+
+    public void setIdtarjeta(Integer idtarjeta) {
+        this.idtarjeta = idtarjeta;
+    }
 
     public String getMarca() {
         return marca;
