@@ -1,4 +1,4 @@
-package com.eldar.apirest.service;
+package com.eldar.apirest.service.api;
 
 import com.eldar.apirest.ConsultaDTO.ConsultaDTO;
 import com.eldar.apirest.model.Consulta;

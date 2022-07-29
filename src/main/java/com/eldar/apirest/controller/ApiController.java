@@ -2,7 +2,7 @@ package com.eldar.apirest.controller;
 
 import com.eldar.apirest.ConsultaDTO.ConsultaDTO;
 import com.eldar.apirest.model.Consulta;
-import com.eldar.apirest.service.ApiService;
+import com.eldar.apirest.service.api.ApiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,9 +1,8 @@
-package com.eldar.apirest.service;
+package com.eldar.apirest.service.api;
 
 import com.eldar.apirest.ConsultaDTO.ConsultaDTO;
 import com.eldar.apirest.exception.ApiException;
 import com.eldar.apirest.model.Consulta;
-import org.springframework.cglib.core.Local;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
