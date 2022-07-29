@@ -16,14 +16,10 @@ public class ApirestApplication {
 
 	public static void main(String[] args) {
 
-		//SpringApplication.run(ApirestApplication.class, args);
+		SpringApplication.run(ApirestApplication.class, args);
 		System.out.println("********************************");
 		System.out.println("Aplicacion Levantada y Corriendo");
 		System.out.println("********************************");
-		String numero = "4841613ok";
-		int numer= Integer.parseInt(numero);
-
-		System.out.println(numer);
 
 
 	}
